@@ -506,13 +506,13 @@ function buildTimeline(){
 let wishes = JSON.parse(localStorage.getItem('bdWishes')||'[]');
 const defaultWishes = [
 {name:'koko 💕',text:'Wishing you a day as magical as you are! You deserve all the happiness in the world!',reactions:{'💖':8,'😍':3,'🎉':5},time:'Just now'},
-  {name:'krishna 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
-  {name:'krishna 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
-  {name:'krishna 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
-  {name:'krishna 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
-  {name:'krishna 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
-  {name:'krishna 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
-  {name:'krishna 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
+  {name:'koko 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
+  {name:'koko 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
+  {name:'koko 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
+  {name:'koko  🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
+  {name:'koko 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
+  {name:'koko 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
+  {name:'koko 🌸',text:'Happy Birthday gorgeous! You are one in a million. May your dreams always come true!',reactions:{'💖':12,'✨':6,'🎂':4},time:'2 mins ago'},
 ];
 function buildWishes(){
   const grid=document.getElementById('wishesGrid');
